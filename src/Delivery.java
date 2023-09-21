@@ -4,17 +4,24 @@ public class Delivery {
     String amountOfPackages;
     Route route;
 
-}
 
-void destination() {
-    System.out.printlin("Today I'm going to " + name);
-}
-
-
-void setAmountOfPackages() {
-    System.out.printlin("I have  ");
-}
-
-void route() {
-    System.out.printlin("Today I'm going to " + name);
+    void destination() {
+        System.out.println("Today I'm going to ");
     }
+
+
+    void setAmountOfPackages() {
+        System.out.println("I have  ");
+    }
+
+    void setroute() {
+        System.out.println("My route today is ");
+    }
+
+
+
+
+
+
+}
+
