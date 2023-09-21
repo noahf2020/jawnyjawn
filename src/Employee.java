@@ -6,7 +6,7 @@ public class Employee {
 
 
     void checkOutCustomers () {
-        System.out.println("Checking Out Customers");
+        System.out.println("Checking Out -Customers");
     }
 
     void clockPunchCard () {
