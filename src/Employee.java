@@ -1,0 +1,24 @@
+public class Employee {
+        String name;
+        String title;
+        int amountOfHours;
+        String wage;
+    HoursWorkedToday hoursWorkedToday = new HoursWorkedToday();
+
+    void checkOutCustomers () {
+        System.out.println( name + " is checking Out -Customers");
+    }
+
+    void clockPunchCard () {
+        System.out.println("clocking punch-card");
+        hoursWorkedToday.calculateHourlyWage();
+
+    }
+    void checkDeliveries (){
+        System.out.println("checking deliveries");
+
+    }
+
+
+
+}
