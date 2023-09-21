@@ -3,7 +3,9 @@ public class Employee {
         String title;
         int amountOfHours;
         String wage;
-    HoursWorkedToday hoursWorkedToday = new HoursWorkedToday();
+    HoursWorkedToday hoursWorkedToday;
+
+
 
     void checkOutCustomers () {
         System.out.println( name + " is checking Out -Customers");
@@ -14,6 +16,9 @@ public class Employee {
         hoursWorkedToday.calculateHourlyWage();
 
     }
+
+
+
     void checkDeliveries (){
         System.out.println("checking deliveries");
 
