@@ -11,9 +11,11 @@ public class HoursWorkedToday {
         }
 
         void calculateHourlyWage() {
-            System.out.println("has earned" + totalHoursWorked);
+            System.out.println(employee.name + "has earned" + employee.wage);
+
 
         }
+
 
 
         void updatePunchClock () {
