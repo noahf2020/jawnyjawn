@@ -7,11 +7,11 @@ public class HoursWorkedToday {
 
 
         void viewShiftHours () {
-            System.out.println(employee.name + "has worked" + totalHoursWorked);
+            System.out.println(employee.name + " has worked" + totalHoursWorked);
         }
 
         void calculateHourlyWage() {
-            System.out.println(employee.name + "has earned" + totalHoursWorked);
+            System.out.println(employee.name + " has earned" + totalHoursWorked);
 
         }
 
