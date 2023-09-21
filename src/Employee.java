@@ -2,7 +2,7 @@ public class Employee {
         int name;
         int title;
         int amountOfHours;
-        String  wage;
+        String wage;
 
 
     void checkOutCustomers () {

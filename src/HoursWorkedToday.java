@@ -2,16 +2,16 @@ public class HoursWorkedToday {
     Employee employee;
     String startTime;
     String totalHoursWorked;
-    public void HoursWorkedToday(String [] args) {
 
 
 
-        void viewShiftHours() {
-            System.out.println(employee + "has worked" + totalHoursWorked);
+
+        void viewShiftHours () {
+            System.out.println(employee.name + "has worked" + totalHoursWorked);
         }
 
         void calculateHourlyWage() {
-            System.out.println(employee + "has earned" + );
+            System.out.println(employee.name + "has earned" + employee.wage);
 
         }
 
@@ -22,6 +22,3 @@ public class HoursWorkedToday {
     }
 
 
-
-
-}
