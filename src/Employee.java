@@ -3,7 +3,7 @@ public class Employee {
         String title;
         int amountOfHours;
         String wage;
-        Void hoursWorkedToday;
+    HoursWorkedToday hoursWorkedToday;
 
 
 

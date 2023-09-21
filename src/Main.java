@@ -7,7 +7,7 @@ public class Main {
 
         employee1.name  = "Liam";
         employee1.wage  = "9.50";
-        hoursWorkedToday1.calculateHourlyWage();
+        employee1.hoursWorkedToday = hoursWorkedToday1;
         employee1.clockPunchCard();
 
 
