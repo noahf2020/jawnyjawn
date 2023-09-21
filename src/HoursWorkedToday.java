@@ -2,7 +2,7 @@ public class HoursWorkedToday {
     Employee employee;
     String startTime;
     String totalHoursWorked;
-    public static void HoursWorkedToday(String [] args) {
+    public void HoursWorkedToday(String [] args) {
 
 
 
@@ -10,8 +10,8 @@ public class HoursWorkedToday {
             System.out.println(employee + "has worked" + totalHoursWorked);
         }
 
-        void calculateHourlyWage () {
-            System.out.println(employee + "has earned" + wage);
+        void calculateHourlyWage() {
+            System.out.println(employee + "has earned" + );
 
         }
 
