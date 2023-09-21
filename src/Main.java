@@ -8,7 +8,8 @@ public class Main {
         employee1.name  = "Liam";
         employee1.wage  = "9.50";
         employee1.hoursWorkedToday = hoursWorkedToday1;
-        hoursWorkedToday1.totalHoursWorked = "10";
+        hoursWorkedToday1.totalHoursWorked = "$10";
+        hoursWorkedToday1.employee = employee1;
 
         employee1.clockPunchCard();
 
