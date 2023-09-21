@@ -1,0 +1,134 @@
+Index: src/HoursWorkedToday.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class HoursWorkedToday {\n    Employee employee;\n    String startTime;\n    String totalHoursWorked;\n\n\n\n\n        void viewShiftHours () {\n            System.out.println(employee.name + \"has worked\" + totalHoursWorked);\n        }\n\n        void calculateHourlyWage() {\n            System.out.println(employee.name + \"has earned\" + employee.wage);\n\n        }\n\n\n        void updatePunchClock () {\n\n        }\n    }\n\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/HoursWorkedToday.java b/src/HoursWorkedToday.java
+--- a/src/HoursWorkedToday.java	(revision 1bcf93e3febc3b2dc094a15eaa8f08b06ff15f49)
++++ b/src/HoursWorkedToday.java	(date 1695301225441)
+@@ -13,7 +13,9 @@
+         void calculateHourlyWage() {
+             System.out.println(employee.name + "has earned" + employee.wage);
+ 
++
+         }
++
+ 
+ 
+         void updatePunchClock () {
+Index: src/Employee.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Employee {\n        String name;\n        String title;\n        int amountOfHours;\n        String wage;\n        Void hoursWorkedToday;\n\n\n\n    void checkOutCustomers () {\n        System.out.println( name + \" is checking Out -Customers\");\n    }\n\n    void clockPunchCard () {\n        System.out.println(\"clocking punch-card\");\n        hoursWorkedToday.calculateHourlyWage();\n\n    }\n    void checkDeliveries (){\n        System.out.println(\"checking deliveries\");\n\n    }\n\n\n\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Employee.java b/src/Employee.java
+--- a/src/Employee.java	(revision 1bcf93e3febc3b2dc094a15eaa8f08b06ff15f49)
++++ b/src/Employee.java	(date 1695301299267)
+@@ -16,6 +16,9 @@
+         hoursWorkedToday.calculateHourlyWage();
+ 
+     }
++
++
++
+     void checkDeliveries (){
+         System.out.println("checking deliveries");
+ 
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"ef689823-f6ba-496d-96c8-abf3f85110b0\" name=\"Changes\" comment=\"\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectCodeStyleSettingsMigration\">\n    <option name=\"version\" value=\"2\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2VcxG8EycTkCFQuc1tiw5nwVhLq\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\"\n  }\n}]]></component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"ef689823-f6ba-496d-96c8-abf3f85110b0\" name=\"Changes\" comment=\"\" />\n      <created>1695149070895</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1695149070895</updated>\n    </task>\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 1bcf93e3febc3b2dc094a15eaa8f08b06ff15f49)
++++ b/.idea/workspace.xml	(date 1695301184731)
+@@ -1,15 +1,32 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="ef689823-f6ba-496d-96c8-abf3f85110b0" name="Changes" comment="" />
++    <list default="true" id="ef689823-f6ba-496d-96c8-abf3f85110b0" name="Changes" comment="j">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/HoursWorkedToday.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HoursWorkedToday.java" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Class" />
++      </list>
++    </option>
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
++  </component>
+   <component name="ProjectCodeStyleSettingsMigration">
+     <option name="version" value="2" />
+   </component>
+@@ -19,12 +36,12 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+@@ -34,6 +51,21 @@
+       <option name="presentableId" value="Default" />
+       <updated>1695149070895</updated>
+     </task>
++    <task id="LOCAL-00001" summary="j">
++      <created>1695150292894</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1695150292894</updated>
++    </task>
++    <task id="LOCAL-00002" summary="j">
++      <created>1695299139125</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1695299139125</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -47,4 +79,8 @@
+       </map>
+     </option>
+   </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="j" />
++    <option name="LAST_COMMIT_MESSAGE" value="j" />
++  </component>
+ </project>
+\ No newline at end of file
