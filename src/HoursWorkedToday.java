@@ -7,6 +7,7 @@ public class HoursWorkedToday {
 
 
         void viewShiftHours () {
+
             System.out.println(employee.name + "has worked" + totalHoursWorked);
         }
 
