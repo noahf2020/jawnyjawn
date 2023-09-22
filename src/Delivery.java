@@ -15,7 +15,7 @@ public class Delivery {
         System.out.println("I have  ");
     }
 
-    void route() {
+    void setroute() {
         System.out.println("My route today is ");
     }
 
