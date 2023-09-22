@@ -1,22 +1,21 @@
 public class Delivery {
     //Fields
-
-    Destination destination;
+    String destination;
     String amountOfPackages;
-    Route route;
+    String route;
 
 
     void destination() {
-        System.out.println("Today I'm going to ");
+        System.out.println("Today Im going to " + destination);
     }
 
 
-    void setAmountOfPackages() {
-        System.out.println("I have  ");
+    void checkAmountOfPackages() {
+        System.out.println("I have  " + amountOfPackages);
     }
 
-    void setroute() {
-        System.out.println("My route today is ");
+    void checkRoute() {
+        System.out.println("My route today is " + route);
     }
 
 
