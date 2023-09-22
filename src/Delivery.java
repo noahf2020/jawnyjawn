@@ -5,7 +5,7 @@ public class Delivery {
     String route;
 
 
-    void destination() {
+    void getdestination() {
         System.out.println("Today Im going to " + destination);
     }
 

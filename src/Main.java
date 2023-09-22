@@ -14,5 +14,10 @@ public class Main {
         employee1.clockPunchCard();
 
 
+        Delivery delivery1 = new Delivery();
+        delivery1.destination = "Philly";
+        delivery1.getdestination();
+
+
     }
 }
