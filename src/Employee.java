@@ -13,7 +13,7 @@ public class Employee {
 
     void clockPunchCard () {
         System.out.println("clocking punch-card");
-        hoursWorkedToday.calculateHourlyWage();
+        hoursWorkedToday.viewShiftHours();
 
     }
 

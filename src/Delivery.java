@@ -1,12 +1,22 @@
-public class Delivery {
+ public class Delivery {
     //Fields
-    String destination;
-    String amountOfPackages;
-    String route;
+   private String destination;
 
+    private Employee employee;
+    private String amountOfPackages;
+    private String route;
 
-    void getdestination() {
-        System.out.println("Today Im going to " + destination);
+     public Delivery(String destination, Employee employee, String amountOfPackages, String route ) {
+         this.destination = destination;
+         this.employee = employee;
+         this.amountOfPackages = amountOfPackages;
+         this.route = route;
+     }
+
+     void getdestination() {
+        System.out.println("Today " + employee.name + " is going to "  + destination);
+        System.out.println();
+
     }
 
 
