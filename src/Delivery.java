@@ -1,22 +1,34 @@
+import java.util.ArrayList;
+
 public class Delivery {
+    private ArrayList<Delivery> delivery;
     //Fields
+   private String destination;
 
-    Destination destination;
-    String amountOfPackages;
-    Route route;
+    private Employee employee;
+    private String amountOfPackages;
+    private String route;
 
+     public Delivery(String destination, Employee employee, String amountOfPackages, String route ) {
+         this.destination = destination;
+         this.employee = employee;
+         this.amountOfPackages = amountOfPackages;
+         this.route = route;
+     }
 
-    void destination() {
-        System.out.println("Today I'm going to ");
+     void getdestination() {
+        System.out.println("Today " + employee.name + " is going to "  + destination);
+        System.out.println();
+
     }
 
 
-    void setAmountOfPackages() {
-        System.out.println("I have  ");
+    void checkAmountOfPackages() {
+        System.out.println("I have  " + amountOfPackages);
     }
 
-    void setroute() {
-        System.out.println("My route today is ");
+    void checkRoute() {
+        System.out.println("My route today is " + route);
     }
 
 
