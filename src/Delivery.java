@@ -17,18 +17,18 @@ public class Delivery {
      }
 
      void getdestination() {
-        System.out.println("Today " + employee.name + " is going to "  + destination);
+        System.out.println("Today " + this.employee + " is going to "  + this.destination);
         System.out.println();
 
     }
 
 
     void checkAmountOfPackages() {
-        System.out.println("I have  " + amountOfPackages);
+        System.out.println("I have  " + this.amountOfPackages);
     }
 
     void checkRoute() {
-        System.out.println("My route today is " + route);
+        System.out.println("My route today is " + this.route);
     }
 
 

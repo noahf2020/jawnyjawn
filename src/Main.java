@@ -6,7 +6,7 @@ public class Main {
 
 
 
-        Employee employee1 = new Employee();
+        Employee employee1 = new Employee("liam", "bossman","10","9.50", );
         HoursWorkedToday hoursWorkedToday1 = new HoursWorkedToday();
 
 
