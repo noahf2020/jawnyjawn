@@ -1,17 +1,13 @@
- public class Delivery {
+import java.util.ArrayList;
+
+public class Delivery {
+    private ArrayList<Delivery> delivery;
     //Fields
    private String destination;
 
     private Employee employee;
     private String amountOfPackages;
     private String route;
-     String getEmployee() {
-         return this.employee.name;
-     }
-
-     void setEmployee(String employeeName) {
-         this.employee.name = employeeName;
-     }
 
      public Delivery(String destination, Employee employee, String amountOfPackages, String route ) {
          this.destination = destination;
@@ -21,25 +17,22 @@
      }
 
      void getdestination() {
-        System.out.println("Today " + this.employee.name + " is going to "  + this.destination);
+        System.out.println("Today " + employee.name + " is going to "  + destination);
         System.out.println();
 
     }
 
 
     void checkAmountOfPackages() {
-        System.out.println("I have  " +  this.amountOfPackages);
+        System.out.println("I have  " + amountOfPackages);
     }
 
     void checkRoute() {
-        System.out.println("My route today is " +   this.route);
+        System.out.println("My route today is " + route);
     }
 
 
 
-     public String toString(){
-         return "Name: " + employee.name;
-     }
 
 
 
