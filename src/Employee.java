@@ -1,11 +1,17 @@
 public class Employee {
-        String name;
-        String title;
-        int amountOfHours;
-        String wage;
-    HoursWorkedToday hoursWorkedToday;
+       private String name;
+      private  String title;
 
+      private  String wage;
+    priavte HoursWorkedToday hoursWorkedToday;
 
+    public Employee(String name, String title, String wage, HoursWorkedToday hoursWorkedToday) {
+        this.name = name;
+        this.title = title;
+
+        this.wage = wage;
+        this.hoursWorkedToday = hoursWorkedToday;
+    }
 
     void checkOutCustomers () {
         System.out.println( name + " is checking Out -Customers");
