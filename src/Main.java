@@ -5,14 +5,9 @@ public class Main {
 
         Employee employee1 = new Employee();
         HoursWorkedToday hoursWorkedToday1 = new HoursWorkedToday();
-        Delivery delivery1 = new Delivery();
 
 
-        delivery1.employee = employee1;
-        delivery1.destination = "Philly";
-        delivery1.getdestination();
-
-
+        Delivery delivery1 = new Delivery("Philly", employee1, "10", "B"  );
 
 
         employee1.name  = "Liam";
@@ -22,6 +17,14 @@ public class Main {
         hoursWorkedToday1.totalHoursWorked = " 10";
         hoursWorkedToday1.employee = employee1;
         employee1.clockPunchCard();
+
+
+        delivery1.getdestination();
+
+
+
+
+
 
 
     }
