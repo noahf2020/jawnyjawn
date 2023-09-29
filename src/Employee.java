@@ -11,17 +11,17 @@ public class Employee {
         this.wage = wage;
         this.hoursWorkedToday = hoursWorkedToday;
     }
-    String getName() {
-        return this.name;
-    }
+
 
     void setName(String newName) {
         this.name = newName;
     }
-
+    public String getName() {
+        return name;
+    }
 
     void checkOutCustomers () {
-        System.out.println( this.name + " is checking Out -Customers");
+        System.out.println(getName() + " is checking Out -Customers");
     }
 
     void clockPunchCard () {

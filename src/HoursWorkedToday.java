@@ -13,6 +13,7 @@ public class HoursWorkedToday {
         this.employee = Employeed;
     }
 
+
         void viewShiftHours () {
             System.out.println(this.employee + " has worked" + this.totalHoursWorked + " hours");
         }
@@ -27,6 +28,10 @@ public class HoursWorkedToday {
             System.out.println(this.employee + "clocked in at" + this.startTime);
 
         }
+
+    public String toString() {
+        return " name:  " + employee;
+    }
     }
 
 

@@ -10,13 +10,14 @@ public class Main {
         HoursWorkedToday hoursWorkedToday1 = new HoursWorkedToday(null,"1900","10");
         Employee employee1 = new Employee("liam", "bossman","10", hoursWorkedToday1);
         Delivery delivery1 = new Delivery("Philly", employee1, "10", "B"  );
-
         hoursWorkedToday1.setEmployee(employee1);
 
+      //
+        employee1.checkOutCustomers();
         employee1.clockPunchCard();
 
 
-        delivery1.getdestination();
+    //    delivery1.getdestination();
 
 
 
