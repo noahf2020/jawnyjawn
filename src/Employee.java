@@ -1,5 +1,5 @@
 public class Employee {
-       private String name;
+       String name;
       private  String title;
 
       private  String wage;
@@ -21,11 +21,11 @@ public class Employee {
     }
 
     void checkOutCustomers () {
-        System.out.println(getName() + " is checking Out -Customers");
+        System.out.println(getName() + " is checking Out Customers");
     }
 
     void clockPunchCard () {
-        System.out.println("clocking punch-card");
+        System.out.println("Clocking punch-card");
         this.hoursWorkedToday.viewShiftHours();
 
     }
