@@ -21,6 +21,7 @@ public class HoursWorkedToday {
 
 
         void updatePunchClock () {
+            System.out.println(this.employee + "clocked in at" + startTime);
 
         }
     }
