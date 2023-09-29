@@ -1,18 +1,21 @@
 public class HoursWorkedToday {
-    Employee employee;
-    String startTime;
-    String totalHoursWorked;
+    private Employee employee;
+    private String startTime;
+    private String totalHoursWorked;
 
 
-
+    public HoursWorkedToday(Employee employee, String startTime, String totalHoursWorked) {
+        this.employee = employee;
+        this.startTime = startTime;
+        this.totalHoursWorked = totalHoursWorked;
+    }
 
         void viewShiftHours () {
-
-            System.out.println(employee.name + " has worked" + totalHoursWorked + " hours");
+            System.out.println(this.employee + " has worked" + this.totalHoursWorked + " hours");
         }
 
         void calculateHourlyWage() {
-            System.out.println(employee.name + " has earned" + totalHoursWorked);
+            System.out.println(this.employee + " has earned" + this.totalHoursWorked);
 
         }
 

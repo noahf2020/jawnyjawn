@@ -6,10 +6,9 @@ public class Main {
 
 
 
-        Employee employee1 = new Employee("liam", "bossman","10","9.50", );
-        HoursWorkedToday hoursWorkedToday1 = new HoursWorkedToday();
 
-
+        HoursWorkedToday hoursWorkedToday1 = new HoursWorkedToday(employee1,"1900","10");
+        Employee employee1 = new Employee("liam", "bossman","10", hoursWorkedToday1);
         Delivery delivery1 = new Delivery("Philly", employee1, "10", "B"  );
 
 

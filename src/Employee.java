@@ -3,7 +3,7 @@ public class Employee {
       private  String title;
 
       private  String wage;
-    priavte HoursWorkedToday hoursWorkedToday;
+    private HoursWorkedToday hoursWorkedToday;
 
     public Employee(String name, String title, String wage, HoursWorkedToday hoursWorkedToday) {
         this.name = name;
@@ -14,12 +14,12 @@ public class Employee {
     }
 
     void checkOutCustomers () {
-        System.out.println( name + " is checking Out -Customers");
+        System.out.println( this.name + " is checking Out -Customers");
     }
 
     void clockPunchCard () {
         System.out.println("clocking punch-card");
-        hoursWorkedToday.viewShiftHours();
+        this.hoursWorkedToday.viewShiftHours();
 
     }
 
