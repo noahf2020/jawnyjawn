@@ -16,7 +16,7 @@ public class Delivery {
      }
 
      void getdestination() {
-        System.out.println("Today " + this.employee + " is going to "  + this.destination);
+        System.out.println("Today " + this.employee.getName() + " is going to "  + this.destination);
         System.out.println();
 
     }

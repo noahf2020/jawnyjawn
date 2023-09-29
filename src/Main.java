@@ -17,7 +17,7 @@ public class Main {
         employee1.clockPunchCard();
 
 
-    //    delivery1.getdestination();
+       delivery1.getdestination();
 
 
 
