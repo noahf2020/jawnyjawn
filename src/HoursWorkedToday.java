@@ -15,23 +15,21 @@ public class HoursWorkedToday {
 
 
         void viewShiftHours () {
-            System.out.println(this.employee + " has worked" + this.totalHoursWorked + " hours");
+            System.out.println(employee.getName() + " has worked" + this.totalHoursWorked + " hours");
         }
 
         void calculateHourlyWage() {
-            System.out.println(this.employee + " has earned" + this.totalHoursWorked);
+            System.out.println(employee.getName() + " has earned" + this.totalHoursWorked);
 
         }
 
 
         void updatePunchClock () {
-            System.out.println(this.employee + "clocked in at" + this.startTime);
+            System.out.println(employee.getName() + "clocked in at" + this.startTime);
 
         }
 
-    public String toString() {
-        return " name:  " + employee;
-    }
+
     }
 
 
