@@ -8,10 +8,17 @@ public class Employee {
     public Employee(String name, String title, String wage, HoursWorkedToday hoursWorkedToday) {
         this.name = name;
         this.title = title;
-
         this.wage = wage;
         this.hoursWorkedToday = hoursWorkedToday;
     }
+    String getName() {
+        return this.name;
+    }
+
+    void setName(String newName) {
+        this.name = newName;
+    }
+
 
     void checkOutCustomers () {
         System.out.println( this.name + " is checking Out -Customers");

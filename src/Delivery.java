@@ -4,7 +4,6 @@ public class Delivery {
     private ArrayList<Delivery> delivery;
     //Fields
    private String destination;
-
     private Employee employee;
     private String amountOfPackages;
     private String route;

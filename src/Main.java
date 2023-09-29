@@ -7,18 +7,12 @@ public class Main {
 
 
 
-        HoursWorkedToday hoursWorkedToday1 = new HoursWorkedToday(employee1,"1900","10");
+        HoursWorkedToday hoursWorkedToday1 = new HoursWorkedToday(null,"1900","10");
         Employee employee1 = new Employee("liam", "bossman","10", hoursWorkedToday1);
         Delivery delivery1 = new Delivery("Philly", employee1, "10", "B"  );
 
+        hoursWorkedToday1.setEmployee(employee1);
 
-
-        employee1.name  = "Liam";
-        employee1.wage  = "9.50";
-
-        employee1.hoursWorkedToday = hoursWorkedToday1;
-        hoursWorkedToday1.totalHoursWorked = " 10";
-        hoursWorkedToday1.employee = employee1;
         employee1.clockPunchCard();
 
 
