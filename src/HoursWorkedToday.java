@@ -9,8 +9,8 @@ public class HoursWorkedToday {
         this.startTime = startTime;
         this.totalHoursWorked = totalHoursWorked;
     }
-    void setEmployee(Employee Employeed) {
-        this.employee = Employeed;
+    void setEmployee(Employee EmployeeData) {
+        this.employee = EmployeeData;
     }
 
 
